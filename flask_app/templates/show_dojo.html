@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1 id="dojoname">Ninjas at {{ dojo.name }}</h1>
+    <div id="showbox">
+        <h1>Showing {{dojo.name}} Ninjas!</h1>
+    <table id="results">
+    <thead>
+        <th>Full Name</th>
+        <th>Created at</th>
+        <th>Updated at</th>
+    </thead>
+    {% for ninja in dojo.ninjas %}
+    <tr>
+        <td> {{ ninja.first_name }} {{ ninja.last_name }}</td>
+        <td>{{ ninja.created_at }}</td>
+        <td> {{ ninja.updated_at }}</td>
+    </tr>
+        <hr>
+    {% endfor %}
+    <a href="/dojos" id="link">Dojos</a>
+    </table>
+    </div>
+</body>
+</html>

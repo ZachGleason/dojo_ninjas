@@ -1,0 +1,125 @@
+#box {
+    height: 500px;
+    width: 450px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+#section1 {
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+#section2 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#section3 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#section4 {
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+#section5 {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+#header {
+    text-align: center;
+}
+
+#home {
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+
+
+
+/* */
+
+#box1 {
+    border: 2px solid black;
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+#name{
+    margin-left: 20px;
+}
+
+#header2 {
+    margin-left: 80px;
+}
+
+
+#box2 {
+    border: 2px solid black;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    height: 500px;
+    width: 450px;
+    margin-left: 900px;
+}
+
+#new_ninja {
+    position: absolute;
+    display: flex;
+    top: 95%;
+    margin-left: 200px;
+}
+
+#header1 {
+    position: absolute;
+    display: flex;
+    margin-left: 155px;
+}
+
+
+#dojotable{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tablebox {
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    margin: auto;
+
+}
+
+#dojoname {
+    text-align: center;
+}
+
+#showbox {
+    border: 1px solid black;
+    width: 400px;
+    height: 700px;
+    text-align: center;
+    margin: auto;
+    background-color: floralwhite;
+}
+
+#results {
+    text-align: center;
+    margin: auto;
+}
+
+#link {
+    top: 80%;
+    position: absolute;
+    display: flex;
+    margin-left: 180px;
+}
